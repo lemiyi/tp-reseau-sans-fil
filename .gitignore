@@ -1,0 +1,15 @@
+# VM Vagrant (≈ 10 Go, spécifique à la machine) et sa config SSH
+.vagrant/
+ssh.cfg
+
+# macOS
+.DS_Store
+
+# Fichiers temporaires LaTeX / Python
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+__pycache__/
+*.pyc

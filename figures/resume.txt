@@ -1,0 +1,22 @@
+== Expérience A : énergie (n=100, 5 graines, 1000 rounds) ==
+Graine | FND | HND | LND
+  1    | 171 | 508 | 800
+  2    | 181 | 569 | 867
+  3    | 200 | 479 | 857
+  4    | 191 | 518 | 815
+  5    | 210 | 520 | 881
+LEACH  FND = 191 ± 14
+LEACH  HND = 519 ± 29
+LEACH  LND = 844 ± 31
+Énergie restante au round 1000 : 0.00 J sur 50.0 J
+Nombre de CH par round (nœuds tous vivants) : moyenne 4.99, écart-type 2.17, min 0, max 13, rounds sans CH : 4/948
+
+== Expérience C : taux de livraison ==
+Taux de livraison global : 98.92 % ± 0.38
+Paquets livrés par round : 100 (rounds 1-10) -> 0.0 (50 derniers rounds)
+Taux de livraison global avec pertes aléatoires : 95.49 %
+
+== Expérience B : passage à l'échelle ==
+N= 50 | setup moyen = 25.952 ms | messages de contrôle/round = 48.2 | CH/round = 2.6 | FND = 99 ± 16 | 5 graines
+N=100 | setup moyen = 38.277 ms | messages de contrôle/round = 104.3 | CH/round = 5.0 | FND = 191 ± 14 | 5 graines
+N=300 | setup moyen = 60.965 ms | messages de contrôle/round = 314.9 | CH/round = 14.9 | FND = 271 ± 14 | 5 graines
